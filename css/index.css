@@ -32,7 +32,6 @@ body {
 }
 
 .all header {
-    border: 1px solid red;
     padding: 100px 0 0;
     background-color: #3c3c3c;
     color: #fff;
@@ -118,6 +117,11 @@ main ul li a:hover{
 main ul{
     list-style-position: inside;
 }
+main ul>li{
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
 main h3,
 main ul strong{
     color: #000;
@@ -135,6 +139,9 @@ main .rsproject img{
 @media(max-width: 768px){
     body{
         font: 13px/1.4 Arial;
+    }
+    .all{
+        margin: 0 auto;
     }
     .all header{
         padding-top: 20px;
