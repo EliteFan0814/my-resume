@@ -142,6 +142,9 @@ main .rsproject img{
     .all aside{
         width: 100%;
     }
+    aside section .icon{
+        font-size: 15px;
+    }
     .all aside ul{
         display: flex;
         flex-wrap: wrap;
