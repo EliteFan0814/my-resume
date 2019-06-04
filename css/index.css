@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 1024px;
-    margin: 15px auto;
+    margin: 15px auto 0;
     background-color: #fff;
 }
 
@@ -82,7 +82,7 @@ aside section h2,
 main section h2 {
     color: #5c99ca;
     font-size: 16px;
-    margin: 14px 0;
+    margin: 10px 0;
 }
 
 aside section ul {
@@ -102,6 +102,27 @@ aside section .icon {
 aside section span {
     font-size: 16px;
     line-height: 20px;
+}
+aside section.downloadpdf{
+    text-align: center;
+    border: none;
+}
+aside section.downloadpdf a{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #7f7d7d;
+    border-radius: 5px;
+    color: #5c99ca;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px #857979;
+    transition: all 0.5s;
+}
+aside section.downloadpdf a:hover{
+    box-shadow: 3px 3px 4px #857979;
+    color: #fff;
+    background-color: #5c99ca;
 }
 .mybase a,
 main ul li a{
@@ -162,6 +183,7 @@ main .rsproject{
 }
 main .rsproject img{
     width: 100%;
+    border: 1px solid #8f8b8b;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #999;
 }
@@ -190,7 +212,7 @@ main .others section h3{
 }
 footer{
     max-width: 1024px;
-    margin: 10px auto;
+    margin: 0 auto 0;
     text-align: center;
     color: #fff;
     background-color: #3c3c3c;

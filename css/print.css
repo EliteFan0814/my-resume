@@ -1,0 +1,9 @@
+.all{
+    margin: 0;
+}
+aside section.downloadpdf,
+.all aside .printnot,
+main .rsproject img,
+main .notshow {
+    display: none;
+}
