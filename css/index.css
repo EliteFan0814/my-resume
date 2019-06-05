@@ -62,11 +62,21 @@ aside .avatar {
     width: 100%;
 }
 
-aside .avatar img {
+aside .avatar .myavatar{
+    display: inline-block;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+aside .avatar .myavatar img{
+    width: 160px;
+}
+/* aside .avatar img {
     width: 160px;
     border-radius: 50%;
     background: #ccc;
-}
+} */
 
 aside section,
 main section {
