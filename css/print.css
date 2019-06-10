@@ -1,6 +1,14 @@
 .all{
     margin: 0;
 }
+aside section,
+main section{
+    margin: 35px 20px 0;
+    padding-bottom: 31px;
+}
+aside section.qrcode{
+    display: block;
+}
 aside section.downloadpdf,
 .all aside .printnot,
 main .rsproject img,

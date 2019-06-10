@@ -113,6 +113,13 @@ aside section span {
     font-size: 16px;
     line-height: 20px;
 }
+aside section.qrcode{
+    margin: 30px 15px 0;
+    display: none;
+}
+aside section.qrcode img{
+    width: 209px;
+}
 aside section.downloadpdf{
     text-align: center;
     border: none;
