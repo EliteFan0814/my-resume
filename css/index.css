@@ -206,6 +206,9 @@ main .rsproject .img-wrap {
 main .rsproject img {
   width: 200px;
 }
+main .rsproject .only-pdf {
+  display: none;
+}
 main .projectText {
   margin-top: 15px;
 }

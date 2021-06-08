@@ -1,5 +1,5 @@
-body{
-    background-color: #fff;
+body {
+  background-color: #fff;
 }
 .all {
   margin: 0;
@@ -18,6 +18,9 @@ main .rsproject .img-wrap,
 main .rsproject img,
 main .notshow {
   display: none;
+}
+main .rsproject .only-pdf {
+  display: inline;
 }
 footer {
   display: none;
