@@ -9,6 +9,12 @@ body {
   color: #666;
   background: #efefef;
 }
+.bold{
+  font-weight: bold;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 1px 4px;
+}
 .hightlight {
   color: #f38020;
   background-color: #efe8e8;
@@ -197,6 +203,7 @@ main .rsproject {
   margin-bottom: 20px;
 }
 main .rsproject .img-wrap {
+  box-sizing: border-box;
   padding: 20px 0;
   text-align: center;
   border: 1px solid #8f8b8b;
@@ -208,6 +215,20 @@ main .rsproject img {
 }
 main .rsproject .only-pdf {
   display: none;
+}
+main .rsproject .multil-imgs {
+  max-width: 744px;
+  padding: 0;
+}
+main .rsproject .multil-imgs img{
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+}
+main .rsproject .multil-imgs .swiper{
+  /* width: 400px; */
+}
+main .rsproject .multil-imgs .swiper-pagination1{
 }
 main .projectText {
   margin-top: 15px;
