@@ -120,11 +120,15 @@ aside section span {
   line-height: 20px;
 }
 aside section.qrcode {
+  text-align: center;
   margin: 30px 15px 0;
   display: none;
 }
 aside section.qrcode img {
   width: 209px;
+}
+aside section.qrcode .qr-text {
+  text-align: center;
 }
 aside section.downloadpdf {
   text-align: center;
