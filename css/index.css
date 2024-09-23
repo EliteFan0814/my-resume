@@ -9,7 +9,7 @@ body {
   color: #666;
   background: #efefef;
 }
-.bold{
+.bold {
   font-weight: bold;
   background-color: #ddd;
   border-radius: 5px;
@@ -129,6 +129,11 @@ aside section.qrcode img {
 }
 aside section.qrcode .qr-text {
   text-align: center;
+  font-size: 12px;
+}
+aside section.qrcode .qr-bold {
+  font-weight: bold;
+  margin-bottom: 6px;
 }
 aside section.downloadpdf {
   text-align: center;
@@ -224,15 +229,15 @@ main .rsproject .multil-imgs {
   max-width: 744px;
   padding: 0;
 }
-main .rsproject .multil-imgs img{
+main .rsproject .multil-imgs img {
   border-radius: 5px;
   width: 100%;
   display: block;
 }
-main .rsproject .multil-imgs .swiper{
+main .rsproject .multil-imgs .swiper {
   /* width: 400px; */
 }
-main .rsproject .multil-imgs .swiper-pagination1{
+main .rsproject .multil-imgs .swiper-pagination1 {
 }
 main .projectText {
   margin-top: 15px;
