@@ -23,5 +23,5 @@ main .rsproject .only-pdf {
   display: inline;
 }
 footer {
-  display: none;
+  /* display: none; */
 }
